@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kristen&#39;s 學習旅程</title>
+  <icon>https://kristen-cheng.github.io/icon.png</icon>
+  <subtitle>菜菜宅宅的大學生Kristen</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://kristen-cheng.github.io/"/>
+  <updated>2020-01-30T16:42:36.193Z</updated>
+  <id>https://kristen-cheng.github.io/</id>
+  
+  <author>
+    <name>Kristen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kristen-cheng.github.io/2020/01/31/hello-world/"/>
+    <id>https://kristen-cheng.github.io/2020/01/31/hello-world/</id>
+    <published>2020-01-30T16:42:36.193Z</published>
+    <updated>2020-01-30T16:42:36.193Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;span class=&quot;external-link&quot;&gt;&lt;a   href=&quot;https://hexo.io/&quot;  target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;&lt;i class=&quot;fa
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
