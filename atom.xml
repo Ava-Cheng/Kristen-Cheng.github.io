@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kristen&#39;s 學習旅程</title>
   <icon>https://kristen-cheng.github.io/icon.png</icon>
-  <subtitle>菜菜宅宅的大學生Kristen</subtitle>
+  <subtitle>菜菜宅宅的大學生</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kristen-cheng.github.io/"/>
-  <updated>2020-01-30T16:42:36.193Z</updated>
+  <updated>2020-02-04T20:45:26.900Z</updated>
   <id>https://kristen-cheng.github.io/</id>
   
   <author>
@@ -17,25 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://kristen-cheng.github.io/2020/01/31/hello-world/"/>
-    <id>https://kristen-cheng.github.io/2020/01/31/hello-world/</id>
-    <published>2020-01-30T16:42:36.193Z</published>
-    <updated>2020-01-30T16:42:36.193Z</updated>
+    <title>利用Hexo架設部落格</title>
+    <link href="https://kristen-cheng.github.io/2020/02/05/blogBuild/"/>
+    <id>https://kristen-cheng.github.io/2020/02/05/blogBuild/</id>
+    <published>2020-02-04T20:20:27.000Z</published>
+    <updated>2020-02-04T20:45:26.900Z</updated>
     
     <summary type="html">
     
+      &lt;img class=&quot;lazyload lazyload-gif&quot; src=&quot;/images/loading.svg&quot; data-src=&quot;/2020/02/05/blogBuild/w.png&quot; title=&quot;範例網頁&quot;&gt;
       
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;span class=&quot;external-link&quot;&gt;&lt;a   href=&quot;https://hexo.io/&quot;  target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;&lt;i class=&quot;fa
-        
-      
+
+        &lt;h1 id=&quot;前言&quot;&gt;
+          &lt;span class=&quot;heading-link&quot;&gt;前言&lt;/span&gt;
+        &lt;/h1&gt;
+      &lt;p&gt;一開始想要建立部落格時，就會先遇到該選擇何種平台撰寫的困境，現今已有許多平台可供我們做選擇，例如Medium、Blogger、 痞客邦Pixnet等知名平台，用已經現有的平台有許多的優點，例如文章搜尋、有相對應的友善操作介面、該平台知名度夠大等等優勢，但相對也有版型限制、有些需要付費、文章發佈數量種種限制。最終考量客製化網頁的彈性，以及使用Markdown語法撰寫文章、不受平台本身限制所拘束總總考量，本次利用在GitHub Page來架設 Hexo 部落格，以下為架設記錄。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="Hexo" scheme="https://kristen-cheng.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://kristen-cheng.github.io/tags/Hexo/"/>
+    
+      <category term="Stun" scheme="https://kristen-cheng.github.io/tags/Stun/"/>
+    
+      <category term="教學" scheme="https://kristen-cheng.github.io/tags/%E6%95%99%E5%AD%B8/"/>
     
   </entry>
   
