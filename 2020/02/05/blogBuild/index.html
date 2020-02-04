@@ -53,12 +53,12 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.0"></he
         <h1 id="更換主題">
           <span class="heading-link">更換主題</span>
         </h1>
-      <p>初始化設定完，預設主題為landscape，然而覺得太平凡想更換主題。  </p>
+      <p>初始化設定完，預設主題為landscape，然而覺得太平凡想更換主題。(本次以stun作為範例)  </p>
 <ol>
-<li>前往挑選預想更換的主題(本次以stun作為範例)&gt;&gt;<span class="external-link"><a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo主題</a><i class="fa fa-external-link"></i></span>.  </li>
+<li>前往挑選預想更換的主題&gt;&gt;<span class="external-link"><a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo主題</a><i class="fa fa-external-link"></i></span>.  </li>
 <li>安裝主題stun，並搬移到根目錄下的themes目錄下<br><code>$ git clone https://github.com/liuyib/hexo-theme-stun.git stun</code>  </li>
 <li>安装依賴 pug <code>$ npm install --save hexo-render-pug</code>  </li>
-<li>修改根目錄下的 _config.yml 文件。<code>theme: stun</code> #注意！ themes目錄下主題名稱要跟此相同  </li>
+<li>修改根目錄下的 _config.yml 文件。<code>theme: stun</code> # 注意！ themes目錄下主題名稱要跟此相同  </li>
 <li>重新啟動(hexo clean &amp;&amp; hexo g &amp;&amp; hexo s)</li>
 </ol>
 
@@ -67,7 +67,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.0"></he
         </h1>
       <p>最後當你建立好blog後，要放上去網路上讓大家都能瀏覽觀看，這次將使用Github Page作為範例。  </p>
 <ol>
-<li>在GitHub 創建一個名稱為username.github.io 的專案 # 注意！username必須要跟自己Github名稱一模一樣</li>
+<li>在GitHub 創建一個名稱為username.github.io 的專案 # 注意！username必須要跟自己GitHub名稱一模一樣</li>
 <li>安装 deploy git 插件<code>$ npm install hexo-deployer-git --save</code></li>
 <li>在主題配置文件 _config.yml 中修改deploy區塊</li>
 </ol>
@@ -85,7 +85,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.0"></he
         <h1 id="Hexo常用指令">
           <span class="heading-link">Hexo常用指令</span>
         </h1>
-      <figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server (hexo s) # 啟動伺服器</span><br><span class="line">$ hexo generate (hexo g) # 產生靜態檔案</span><br><span class="line">$ hexo clean # 清除快取檔案 (db.json) 和已產生的靜態檔案 (public)</span><br><span class="line">$ hexo deploy (hexo d) # 部署網站</span><br><span class="line">$ hexo new “Name” # 新建文章</span><br><span class="line">$ hexo new page “Name” # 新建頁面</span><br></pre></td></tr></table></div></figure>
+      <figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean # 清除快取檔案 (db.json) 和已產生的靜態檔案 (public)</span><br><span class="line">$ hexo generate (hexo g) # 產生靜態檔案</span><br><span class="line">$ hexo server (hexo s) # 啟動伺服器</span><br><span class="line">$ hexo deploy (hexo d) # 部署網站</span><br><span class="line">$ hexo new “Name” # 新建文章</span><br><span class="line">$ hexo new draft &lt;title&gt; # 撰寫草稿</span><br><span class="line">$ hexo publish &lt;title&gt; # 發佈文章</span><br><span class="line">$ hexo serve --draft # 預覽結果(包含草稿)</span><br><span class="line">$ hexo new page “Name” # 新建頁面</span><br></pre></td></tr></table></div></figure>
 <blockquote>
 <p>補充：<span class="external-link"><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/1.html" target="_blank" rel="noopener">Markdown編輯器推薦</a><i class="fa fa-external-link"></i></span></p>
 </blockquote>
